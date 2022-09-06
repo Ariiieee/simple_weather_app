@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather app</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel = "stylesheet" href="css/weatherApp.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+	
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="weather-content">
+				<h3 class="weather-heading">WEATHER FORECAST</h3>
+				<p class="weather-date">Sunday 7th, August 2022 11:14pm</p>
+
+				<form id="weather-form" class="weather-input">
+					<input type="text" id="weather-input" placeholder="search city here" />
+					<button class="search-btn" type="submit">search</button>
+					<button class="current-btn" type="subit">Current</button>
+				</form>
+				<div class="weather-details">
+					<p>
+						<span class="city">City</span>
+						<!-- <span class="country">Country</span> -->
+					</p>
+					<div class="weather-info">
+						<span class="degree">
+							<span class="num"> 3</span>
+							<Span class="degree-unit">
+								<span class="num-deg"> &#8451; </span>
+								<span class="fah"> &#x2109; </span>
+							</Span>
+						</span>
+						<span class="weather-icon">☀️</span>
+
+						<span class="weather-stat">
+							<div class="wea-txt">
+								<p class="wea-sta">partly cloudy</p>
+								<p class="wea-sta">humidity -40%</p>
+							</div>
+						</span>
+					</div>
+				</div>
+				<!-- <p class="weather-sub-head">five days of forecast</p>
+				<span class="weather-forecasts">
+					
+						<div class="forecast">
+							<p class="day">Monday</p>
+							<div class="sub-wea-det">
+								<span class="sub-deg">5&#8451;</span>
+								<span class="cloud-icon">☁️</span> 
+							</div>
+							<p class="cloud">cloudy</p>
+					   </div>
+
+					   <div class="forecast">
+							<p class="day">Tuesday</p>
+							<div class="sub-wea-det">
+								<span class="sub-deg">5&#8451;</span>
+								<span class="cloud-icon">☁️</span> 
+							</div>
+							<p class="cloud">cloudy</p>
+					   </div> -->
+
+					   <!-- <div class="forecast">
+							<p class="day">Wednesday</p>
+							<div class="sub-wea-det">
+								<span class="sub-deg">5&#8451;</span>
+								<span class="cloud-icon">☁️</span> 
+							</div>
+							<p class="cloud">cloudy</p>
+					   </div>
+					   <div class="forecast">
+							<p class="day">Thursday</p>
+							<div class="sub-wea-det">
+								<span class="sub-deg">5&#8451;</span>
+								<span class="cloud-icon">☁️</span> 
+							</div>
+							<p class="cloud">cloudy</p>
+					   </div>
+					   <div class="forecast">
+							<p class="day">Friday</p>
+							<div class="sub-wea-det">
+								<span class="sub-deg">5&#8451;</span>
+								<span class="cloud-icon">☁️</span> 
+							</div>
+							<p class="cloud">cloudy</p>
+					   </div>
+					
+				</div>
+			</div> -->
+		</div>
+		<script src="js/index.js">
+		</script>
+	</body>
 </html>

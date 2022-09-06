@@ -9,7 +9,7 @@
   
   .container {
     max-width: 850px;
-    margin: 100px auto;
+    margin: 100px auto 20px auto;
     border: 4px solid #5a6275;
     padding: 40px 60px;
   }
@@ -152,3 +152,27 @@
     font-size: 48px;
   }
   
+
+  .open-source-link {
+    font-weight: 500;
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+.source-code {
+    margin-left: 325px;
+
+}
+
+  .open-source-link:hover {
+    text-decoration:  underline;
+  }
+
+  .author {
+    color: #181616;
+  }
+
+  .author:hover {
+    text-decoration: none;
+  }
